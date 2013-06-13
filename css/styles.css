@@ -1,0 +1,67 @@
+.clear {
+	clear: both;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.draggable {
+	display: inline-block;
+}
+
+/* BODY Styles */
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(http://www.vectorfree.com/media/vectors/yellow-background-red-swirl.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* BUTTON Styles */
+i {
+	padding-right: 7px;
+}
+
+/* LEFT SIDE VERTICAL TOOLBAR Styles */
+#left_side_vertical_toolbar {
+	float: left;
+}
+
+#left_side_vertical_toolbar ul {
+	list-style-type: none;
+}
+
+/* TOP HORIZONTAL COMMAND BAR Styles */
+#top_horizontal_commandbar {
+	display: block;
+	width: 630px;
+	margin: 10px auto;
+}
+
+#top_horizontal_commandbar ul li {
+	display: inline-block;
+}
+
+/* CANVAS Styles */
+#workarea {
+	display: block;
+	/*float: left;*/
+	position: absolute;
+	width: 83%;
+	height: 85%;
+	border: 1px solid black;
+	margin-left: 170px;
+	background-color: white;
+	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: auto; 
+}
+
+/*INDEX.PHP STYLES img {
+	left: 0px;
+	top: 0px;
+}*/
